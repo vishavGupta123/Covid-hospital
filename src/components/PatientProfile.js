@@ -73,6 +73,10 @@ class PatientProfile extends Component {
             </span>
             {profile.patient.report.Status}
           </div>
+          <div>
+            <span className="patient-details">Date:</span>
+            {profile.patient.report.Date}
+          </div>
         </div>
       );
     }
